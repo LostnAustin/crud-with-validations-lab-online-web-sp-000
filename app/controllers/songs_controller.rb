@@ -1,7 +1,7 @@
 class SongsController < ApplicationController
 
   def index
-    binding.pry
+    # binding.pry
     @songs = Song.all
   end
 
